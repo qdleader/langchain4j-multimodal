@@ -3,13 +3,9 @@ package com.example.langchain4jmultimodal.controller;
 
 import com.example.langchain4jmultimodal.request.BaseModelRequestVO;
 import com.example.langchain4jmultimodal.service.ChatService;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import jakarta.annotation.Resource;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 
 @RestController
