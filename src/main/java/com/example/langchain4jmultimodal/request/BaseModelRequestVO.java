@@ -16,4 +16,6 @@ public class BaseModelRequestVO {
     private String msg;
 
     private Long userId;
+
+    private String supplier;
 }
